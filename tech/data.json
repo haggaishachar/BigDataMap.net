@@ -1,0 +1,555 @@
+{
+    "id": "root",
+    "name1": "Big Data Technologies",
+    "children": [
+        {
+            "id": "DataRepos",
+            "name1": "Data",
+            "name2": "Repositories",
+            "level": -99,
+            "children": [
+                {
+                    "id": "Sharding",
+                    "name1": "Sharding",
+                    "name2": "Solutions",
+                    "children": [
+                        {
+                            "id": "scalebase",
+                            "image": "scalebase.png",
+                            "link": "scalebase.com"
+                        },
+                        {
+                            "id": "tokutek",
+                            "image": "tokutek.png",
+                            "link": "tokutek.com"
+                        },
+                        {
+                            "id": "geniedb",
+                            "image": "geniedb.png",
+                            "link": "geniedb.com"
+
+                        },
+                        {
+                            "id": "scalearc",
+                            "image": "scalearc.png",
+                            "link": "scalearc.com"
+                        },
+                        {
+                            "id": "dbshards",
+                            "image": "dbshards.png",
+                            "link": "dbshards.com"
+                        }
+                    ]
+                },
+                {
+                    "id": "NewSQLs",
+                    "name1": "NewSQLs",
+                    "children": [
+                        {
+                            "id": "clustrix",
+                            "image": "clustrix.png",
+                            "link": "clustrix.com"
+                        },
+                        {
+                            "id": "nuodb",
+                            "image": "nuodb.png",
+                            "link": "nuodb.com"
+                        },
+                        {
+                            "id": "akiban",
+                            "image": "akiban.png",
+                            "link": "akiban.com"
+                        },
+                        {
+                            "id": "memsql",
+                            "image": "memsql.png",
+                            "link": "memsql.com"
+                        },
+                        {
+                            "id": "justone-database-inc",
+                            "image": "justonedb.png",
+                            "link": "justonedb.com"
+                        },
+                        {
+                            "id": "voltdb",
+                            "image": "voltdb.png",
+                            "link": "voltdb.com"
+                        }
+
+                    ]
+                },
+                {
+                    "id": "HadoopFlavors",
+                    "name1": "Hadoop",
+                    "name2": "Flavors",
+                    "children": [
+                        {
+                            "id": "cloudera",
+                            "image": "cloudera.png",
+                            "link": "cloudera.com"
+                        },
+                        {
+                            "id": "hortonworks",
+                            "image": "HortonWorks.png",
+                            "link": "HortonWorks.com"
+                        },
+                        {
+                            "id": "apache",
+                            "image": "hadoop.png",
+                            "link": "hadoop.apache.org"
+                        },
+                        {
+                            "id": "mapr-technologies",
+                            "image": "MapR.png",
+                            "link": "mapr.com"
+                        }
+                    ]
+                },
+                {
+                    "id": "NoSQLs",
+                    "name1": "NoSQLs",
+                    "children": [
+                        {
+                            "id": "rethinkdb",
+                            "image": "rethinkdb.png"
+                        },
+                        {
+                            "id": "Cassandra",
+                            "image": "Cassandra.png",
+                            "link": "cassandra.apache.org"
+                        },
+                        {
+                            "id": "riak",
+                            "image": "riak.png",
+                            "link": "wiki.basho.com"
+                        },
+                        {
+                            "id": "OracleNoSQL",
+                            "image": "OralceNoSQL.png",
+                            "link": "www.oracle.com/technetwork/products/nosqldb/overview/index.html"
+                        },
+                        {
+                            "id": "CouchBase",
+                            "image": "CouchBase.png",
+                            "link": "CouchBase.com"
+                        },
+                        {
+                            "id": "MongoDB",
+                            "image": "mongodb.png",
+                            "link": "mongodb.org"
+                        },
+                        {
+                            "id": "redis",
+                            "image": "redis.png",
+                            "link": "redis.io"
+                        },
+                        {
+                            "id": "aerospike",
+                            "image": "aerospike.png",
+                            "link": "aerospike.com"
+                        },
+                        {
+                            "id": "GraphDBs",
+                            "name1": "Graph",
+                            "name2": "Databases",
+                            "children": [
+                                {
+                                    "id": "Neo4j",
+                                    "image": "neo4j.png",
+                                    "link": "neo4j.org"
+                                },
+                                {
+                                    "id": "Titan",
+                                    "image": "titan.png",
+                                    "link": "thinkaurelius.github.com/titan"
+                                },
+                                {
+                                    "id": "InfiniteGraph",
+                                    "image": "InfiniteGraph.png",
+                                    "link": "objectivity.com/INFINITEGRAPH"
+                                }
+                            ]
+                        }
+
+                    ]
+                },
+                {
+                    "id": "AnalyticDBs",
+                    "name1": "Analytic",
+                    "name2": "Databases",
+                    "children": [
+                        {
+                            "id": "Vertica",
+                            "image": "vertica.png",
+                            "link": "vertica.com"
+                        },
+                        {
+                            "id": "OracleExadata",
+                            "image": "OracleExadata.png",
+                            "link": "www.oracle.com/us/products/database/exadata/overview/index.html"
+                        },
+                        {
+                            "id": "Paraccel",
+                            "image": "Paraccel.png",
+                            "link": "Paraccel.com"
+                        },
+                        {
+                            "id": "Netezza",
+                            "image": "Netezza.png",
+                            "link": "www.ibm.com/software/data/netezza"
+                        },
+                        {
+                            "id": "AsterData",
+                            "image": "AsterData.png",
+                            "link": "www.asterdata.com"
+                        },
+                        {
+                            "id": "Greenplum",
+                            "image": "greenplum.png",
+                            "link": "greenplum.com"
+                        },
+                        {
+                            "id": "Infobright",
+                            "image": "Infobright.png",
+                            "link": "Infobright.com"
+                        },
+                        {
+                            "id": "drawn-to-scale",
+                            "image": "drawn-to-scale.png",
+                            "link": "drawntoscale.com"
+                        },
+                        {
+                            "id": "SybaseIQ",
+                            "image": "SybaseIQ.png",
+                            "link": "www.sybase.com/products/datawarehousing/sybaseiq"
+                        },
+                        {
+                            "id": "kognitio",
+                            "image": "kognitio.png",
+                            "link": "www.kognitio.com"
+                        },
+                        {
+                            "id": "impala",
+                            "image": "impala.jpg",
+                            "link": "github.com/cloudera/impala"
+                        },
+                        {
+                            "id": "InfiniDB",
+                            "image": "InfiniDB.png",
+                            "link": "InfiniDB.org"
+                        },
+                        {
+                            "id": "Teradata",
+                            "image": "Teradata.png",
+                            "link": "teradata.com"
+                        },
+                        {
+                            "id": "Vectorwise",
+                            "image": "vectorwise.png",
+                            "link": "actian.com/products/vectorwise"
+                        },
+                        {
+                            "id": "Hadapt",
+                            "image": "hadapt.png",
+                            "link": "hadapt.com"
+                        },
+                        {
+                            "id": "JethroData",
+                            "image": "JethroData.png",
+                            "link": "JethroData.com"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "RealTimeProcessing",
+            "name1": "Real-Time",
+            "name2": "Processing",
+            "level": 5,
+            "children": [
+                {
+                    "id": "Streambase",
+                    "image": "streambase.png",
+                    "link": "streambase.com"
+                },
+                {
+                    "id": "OracleCEP",
+                    "image": "OracleCEP.png",
+                    "link": "www.oracle.com/technetwork/middleware/complex-event-processing/overview/index.html"
+                },
+                {
+                    "id": "Esper",
+                    "image": "Esper.png",
+                    "link": "esper.codehaus.org"
+                },
+                {
+                    "id": "Storm",
+                    "image": "storm.png",
+                    "link": "storm-project.net/"
+                },
+                {
+                    "id": "HStreaming",
+                    "image": "hstreaming.jpg",
+                    "link": "hstreaming.com"
+                },
+                {
+                    "id": "acunu",
+                    "image": "acunu.png",
+                    "link": "acunu.com"
+                }
+            ]
+        },
+        {
+            "id": "Middleware",
+            "name1": "Middleware",
+            "level": 0,
+            "children": [
+                {
+                    "id": "DataMessaging",
+                    "name1": "Data",
+                    "name2": "Messaging",
+                    "children": [
+                        {
+                            "id": "Kafka",
+                            "image": "kafka.png",
+                            "link": "incubator.apache.org/kafka"
+                        },
+                        {
+                            "id": "Flume",
+                            "image": "flume.png",
+                            "link": "flume.apache.org"
+                        }
+                    ]
+                },
+                {
+                    "id": "coordination",
+                    "name1": "Coordination",
+                    "children": [
+                        {
+                            "id": "oozie",
+                            "image": "oozie.png",
+                            "link": "oozie.apache.org"
+                        },
+                        {
+                            "id": "zookeeper",
+                            "image": "zookeeper.gif",
+                            "link": "zookeeper.apache.org"
+                        }
+                    ]
+                },
+                {
+                    "id": "Integration",
+                    "name1": "Data",
+                    "name2": "Integration",
+                    "children": [
+                        {
+                            "id": "kettle",
+                            "image": "kettle.png",
+                            "link": "kettle.pentaho.com"
+                        },
+                        {
+                            "id": "talend",
+                            "image": "talend.png",
+                            "link": "talend.com"
+                        },
+                        {
+                            "id": "Informatica",
+                            "image": "informatica.png",
+                            "link": "informatica.com"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "InMemoryDataGrids",
+            "name1": "In-Memory",
+            "name2": "Data Grids",
+            "level": 1000,
+            "children": [
+                {
+                    "id": "GridGain",
+                    "image": "GridGain.png",
+                    "link": "gridgain.com"
+                },
+                {
+                    "id": "OracleCoherence",
+                    "image": "OracleCoherence.png",
+                    "link": "oracle.com/technetwork/middleware/coherence/overview/index.html"
+                },
+                {
+                    "id": "terracotta",
+                    "image": "terracotta.gif",
+                    "link": "terracotta.org"
+                },
+                {
+                    "id": "Hazelcast",
+                    "image": "Hazelcast.png",
+                    "link": "Hazelcast.com"
+                },
+                {
+                    "id": "Gemfire",
+                    "image": "Gemfire.png",
+                    "link": "www.vmware.com/products/application-platform/vfabric-gemfire/overview.html"
+                },
+                {
+                    "id": "Gigaspaces",
+                    "image": "gigaspaces.png",
+                    "link": "gigaspaces.com"
+                }
+            ]
+        },
+        {
+            "id": "DevFrameworks",
+            "name1": "Development",
+            "name2": "Frameworks",
+            "level": -50,
+            "children": [
+                {
+                    "id": "MapReduce",
+                    "image": "mapreduce.png",
+                    "link": "en.wikipedia.org/wiki/MapReduce"
+                },
+                {
+                    "id": "Hive",
+                    "image": "hive.png",
+                    "link": "hive.apache.org"
+                },
+                {
+                    "id": "Pig",
+                    "image": "pig.png",
+                    "link": "pig.apache.org"
+                },
+                {
+                    "id": "cascading",
+                    "image": "cascading.png",
+                    "link": "cascading.org"
+                },
+                {
+                    "id": "DataMining",
+                    "name1": "Data",
+                    "name2": "Mining",
+                    "children": [
+                        {
+                            "id": "Mahout",
+                            "image": "mahout.png",
+                            "link": "mahout.apache.org"
+                        },
+                        {
+                            "id": "R",
+                            "image": "r.png",
+                            "link": "r-project.org"
+                        }
+
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "DataAnalysis",
+            "name1": "Data",
+            "name2": "Analysis",
+            "level": 50,
+            "children": [
+                {
+                    "id": "LogsAnalysis",
+                    "name1": "Logs",
+                    "name2": "Analysis",
+                    "children": [
+                        {
+                            "id": "Splunk",
+                            "image": "splunk.png",
+                            "link": "splunk.com"
+                        },
+                        {
+                            "id": "sumologic",
+                            "image": "sumologic.png",
+                            "link": "sumologic.com"
+                        },
+                        {
+                            "id": "datadog",
+                            "image": "datadog.png",
+                            "link": "datadoghq.com"
+                        }
+                    ]
+                },
+                {
+                    "id": "VisualizationLibs",
+                    "name1": "Viz.",
+                    "name2": "Libraries",
+                    "children": [
+                        {
+                            "id": "d3",
+                            "image": "d3js.png",
+                            "link": "d3js.org"
+                        },
+                        {
+                            "id": "highcharts",
+                            "image": "highcharts.png",
+                            "link": "highcharts.com"
+                        },
+                        {
+                            "id": "fusioncharts",
+                            "image": "fusioncharts.png",
+                            "link": "fusioncharts.com"
+                        }
+                    ]
+                },
+                {
+                    "id": "BI",
+                    "name1": "Business",
+                    "name2": "Inteligience",
+                    "children": [
+                        {
+                            "id": "Pentaho",
+                            "image": "Pentaho.png",
+                            "link": "Pentaho.com"
+                        },
+                        {
+                            "id": "JasperSoft",
+                            "image": "JasperSoft.png",
+                            "link": "JasperSoft.com"
+                        },
+                        {
+                            "id": "QlikView",
+                            "image": "qlikview.png",
+                            "link": "qlikview.com"
+                        },
+                        {
+                            "id": "Tableau",
+                            "image": "tableau.png",
+                            "link": "qlikview.com"
+                        },
+                        {
+                            "id": "Datameer",
+                            "image": "Datameer.png",
+                            "link": "Datameer.com"
+                        },
+                        {
+                            "id": "Karmasphere",
+                            "image": "Karmasphere.png",
+                            "link": "Karmasphere.com"
+                        },
+                        {
+                            "id": "Microstrategy",
+                            "image": "Microstrategy.png",
+                            "link": "Microstrategy.com"
+                        },
+                        {
+                            "id": "businessobjects",
+                            "image": "businessobjects.jpg",
+                            "link": "businessobjects.com"
+                        },
+                        {
+                            "id": "cognos",
+                            "image": "cognos.gif",
+                            "link": "cognos.com"
+                        }
+
+                    ]
+                }
+            ]
+        }
+    ]
+}
