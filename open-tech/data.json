@@ -56,7 +56,7 @@
                         },
                         {
                             "id": "elasticsearch",
-                            "image": "selasticsearch.png",
+                            "image": "eselasticsearch.png",
                             "link" : "elastic.co"
                         },
                         {
@@ -68,6 +68,10 @@
                                     "id": "Neo4j",
                                     "image": "neo4j.png",
                                     "link": "neo4j.org"
+                                },
+                                {
+                                    "id": "OrientDB",
+                                    "image": "orientdb.png"
                                 }
                             ]
                         }
@@ -94,15 +98,28 @@
             ]
         },
         {
-            "id": "RealTimeProcessing",
-            "name1": "Real-Time",
+            "id": "DataProcessing",
+            "name1": "Data",
             "name2": "Processing",
-            "level": 5,
+            "level": 9,
             "children": [
                 {
-                    "id": "Storm",
-                    "image": "storm.png",
-                    "link": "storm-project.net/"
+                    "id": "RealTimeProcessing",
+                    "name1": "Real-Time",
+                    "name2": "Processing",
+                    "level": 5,
+                    "children": [
+                        {
+                            "id": "Storm",
+                            "image": "storm.png",
+                            "link": "storm-project.net/"
+                        },
+                        {
+                            "id": "Flint",
+                            "image": "flint.jpg",
+                            "link": "flink.apache.org"
+                        }
+                    ]
                 }
             ]
         },
@@ -119,7 +136,24 @@
                         {
                             "id": "Kafka",
                             "image": "kafka.png",
-                            "link": "incubator.apache.org/kafka"
+                            "link": "kafka.apache.org"
+                        }
+                    ]
+                },
+                {
+                    "id": "DataCollection",
+                    "name1": "Data",
+                    "name2": "Collection",
+                    "children": [
+                        {
+                            "id": "logstash",
+                            "image": "logstash.png",
+                            "link": "www.elastic.co/products/logstash"
+                        },
+                        {
+                            "id": "fluentd",
+                            "image": "fluentd.png",
+                            "link": "fluentd.org"
                         },
                         {
                             "id": "Flume",
@@ -164,65 +198,20 @@
             ]
         },
         {
-            "id": "InMemoryDataGrids",
-            "name1": "In-Memory",
-            "name2": "Data Grids",
-            "level": 1000,
-            "children": [
-                {
-                    "id": "terracotta",
-                    "image": "terracotta.gif",
-                    "link": "terracotta.org"
-                }
-            ]
-        },
-        {
             "id": "DevFrameworks",
             "name1": "Development",
             "name2": "Frameworks",
             "level": -50,
             "children": [
                 {
-                    "id": "MapReduce",
-                    "image": "mapreduce.png",
-                    "link": "en.wikipedia.org/wiki/MapReduce"
-                },
-                {
                     "id": "Hive",
                     "image": "hive.png",
                     "link": "hive.apache.org"
                 },
                 {
-                    "id": "Pig",
-                    "image": "pig.png",
-                    "link": "pig.apache.org"
-                },
-                {
-                    "id": "cascading",
-                    "image": "cascading.png",
-                    "link": "cascading.org"
-                },
-                {
                     "id": "spark",
                     "image" : "spark.png",
                     "linke": "spark.apache.org"
-                },
-                {
-                    "id": "MachineLearning",
-                    "name1": "Machine",
-                    "name2": "Learning",
-                    "children": [
-                        {
-                            "id": "Mahout",
-                            "image": "mahout.png",
-                            "link": "mahout.apache.org"
-                        },
-                        {
-                            "id": "R",
-                            "image": "r.png",
-                            "link": "r-project.org"
-                        }
-                    ]
                 }
             ]
         },
@@ -232,18 +221,6 @@
             "name2": "Analysis",
             "level": 50,
             "children": [
-                {
-                    "id": "DataCollection",
-                    "name1": "Data",
-                    "name2": "Collection",
-                    "children": [
-                        {
-                            "id": "logstash",
-                            "image": "logstash.png",
-                            "link": "www.elastic.co/products/logstash"
-                        }
-                    ]
-                },
                 {
                     "id": "VisualizationLibs",
                     "name1": "Viz.",
@@ -270,6 +247,16 @@
                             "id": "JasperSoft",
                             "image": "JasperSoft.png",
                             "link": "JasperSoft.com"
+                        },
+                        {
+                            "id": "Birt",
+                            "image": "birt.png",
+                            "link": "www.eclipse.org/birt"
+                        },
+                        {
+                            "id" : "Metabase",
+                            "image": "metabase.jpg",
+                            "link": "metabase.com"
                         }
                     ]
                 }
