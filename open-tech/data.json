@@ -41,8 +41,8 @@
                         },
                         {
                             "id": "CouchBase",
-                            "image": "CouchBase.png",
-                            "link": "CouchBase.com"
+                            "image": "Couchbase.gif",
+                            "link": "Couchbase.com"
                         },
                         {
                             "id": "MongoDB",
@@ -56,7 +56,7 @@
                         },
                         {
                             "id": "elasticsearch",
-                            "image": "eselasticsearch.png",
+                            "image": "elasticsearch.png",
                             "link" : "elastic.co"
                         },
                         {
@@ -90,8 +90,8 @@
                         },
                         {
                             "id": "presto",
-                            "image": "prestodb.jpg",
-                            "link": "prestodb.png"
+                            "image": "presto.png",
+                            "link": "prestodb.io"
                         }
                     ]
                 }
@@ -118,6 +118,23 @@
                             "id": "Flint",
                             "image": "flint.jpg",
                             "link": "flink.apache.org"
+                        }
+                    ]
+                },
+                {
+                    "id": "Integration",
+                    "name1": "Data",
+                    "name2": "Integration",
+                    "children": [
+                        {
+                            "id": "kettle",
+                            "image": "kettle.png",
+                            "link": "kettle.pentaho.com"
+                        },
+                        {
+                            "id": "talend",
+                            "image": "talend.png",
+                            "link": "talend.com"
                         }
                     ]
                 }
@@ -175,23 +192,6 @@
                             "id": "zookeeper",
                             "image": "zookeeper.gif",
                             "link": "zookeeper.apache.org"
-                        }
-                    ]
-                },
-                {
-                    "id": "Integration",
-                    "name1": "Data",
-                    "name2": "Integration",
-                    "children": [
-                        {
-                            "id": "kettle",
-                            "image": "kettle.png",
-                            "link": "kettle.pentaho.com"
-                        },
-                        {
-                            "id": "talend",
-                            "image": "talend.png",
-                            "link": "talend.com"
                         }
                     ]
                 }
