@@ -14,6 +14,11 @@
                     "name2": "Flavors",
                     "children": [
                         {
+                            "id": "hadoop-apache",
+                            "image": "hadoop.png",
+                            "link": "hadoop.apache.org"
+                        },
+                        {
                             "id": "cloudera",
                             "image": "cloudera.png",
                             "link": "cloudera.com"
@@ -22,16 +27,6 @@
                             "id": "hortonworks",
                             "image": "HortonWorks.png",
                             "link": "HortonWorks.com"
-                        },
-                        {
-                            "id": "apache",
-                            "image": "hadoop.png",
-                            "link": "hadoop.apache.org"
-                        },
-                        {
-                            "id": "mapr-technologies",
-                            "image": "MapR.png",
-                            "link": "mapr.com"
                         }
                     ]
                 },
@@ -60,6 +55,11 @@
                             "link": "redis.io"
                         },
                         {
+                            "id": "elasticsearch",
+                            "image": "selasticsearch.png",
+                            "link" : "elastic.co"
+                        },
+                        {
                             "id": "GraphDBs",
                             "name1": "Graph",
                             "name2": "Databases",
@@ -76,13 +76,18 @@
                 },
                 {
                     "id": "AnalyticDBs",
-                    "name1": "Analytic",
+                    "name1": "SQL Analytic",
                     "name2": "Databases",
                     "children": [
                         {
                             "id": "impala",
                             "image": "impala.jpg",
-                            "link": "github.com/cloudera/impala"
+                            "link": "impala.apache.org"
+                        },
+                        {
+                            "id": "presto",
+                            "image": "prestodb.jpg",
+                            "link": "prestodb.png"
                         }
                     ]
                 }
@@ -198,9 +203,14 @@
                     "link": "cascading.org"
                 },
                 {
-                    "id": "DataMining",
-                    "name1": "Data",
-                    "name2": "Mining",
+                    "id": "spark",
+                    "image" : "spark.png",
+                    "linke": "spark.apache.org"
+                },
+                {
+                    "id": "MachineLearning",
+                    "name1": "Machine",
+                    "name2": "Learning",
                     "children": [
                         {
                             "id": "Mahout",
@@ -212,7 +222,6 @@
                             "image": "r.png",
                             "link": "r-project.org"
                         }
-
                     ]
                 }
             ]
@@ -224,24 +233,14 @@
             "level": 50,
             "children": [
                 {
-                    "id": "LogsAnalysis",
-                    "name1": "Logs",
-                    "name2": "Analysis",
+                    "id": "DataCollection",
+                    "name1": "Data",
+                    "name2": "Collection",
                     "children": [
                         {
-                            "id": "Splunk",
-                            "image": "splunk.png",
-                            "link": "splunk.com"
-                        },
-                        {
-                            "id": "sumologic",
-                            "image": "sumologic.png",
-                            "link": "sumologic.com"
-                        },
-                        {
-                            "id": "datadog",
-                            "image": "datadog.png",
-                            "link": "datadoghq.com"
+                            "id": "logstash",
+                            "image": "logstash.png",
+                            "link": "www.elastic.co/products/logstash"
                         }
                     ]
                 },
@@ -254,16 +253,6 @@
                             "id": "d3",
                             "image": "d3js.png",
                             "link": "d3js.org"
-                        },
-                        {
-                            "id": "highcharts",
-                            "image": "highcharts.png",
-                            "link": "highcharts.com"
-                        },
-                        {
-                            "id": "fusioncharts",
-                            "image": "fusioncharts.png",
-                            "link": "fusioncharts.com"
                         }
                     ]
                 },
@@ -281,43 +270,7 @@
                             "id": "JasperSoft",
                             "image": "JasperSoft.png",
                             "link": "JasperSoft.com"
-                        },
-                        {
-                            "id": "QlikView",
-                            "image": "qlikview.png",
-                            "link": "qlikview.com"
-                        },
-                        {
-                            "id": "Tableau",
-                            "image": "tableau.png",
-                            "link": "qlikview.com"
-                        },
-                        {
-                            "id": "Datameer",
-                            "image": "Datameer.png",
-                            "link": "Datameer.com"
-                        },
-                        {
-                            "id": "Karmasphere",
-                            "image": "Karmasphere.png",
-                            "link": "Karmasphere.com"
-                        },
-                        {
-                            "id": "Microstrategy",
-                            "image": "Microstrategy.png",
-                            "link": "Microstrategy.com"
-                        },
-                        {
-                            "id": "businessobjects",
-                            "image": "businessobjects.jpg",
-                            "link": "businessobjects.com"
-                        },
-                        {
-                            "id": "cognos",
-                            "image": "cognos.gif",
-                            "link": "cognos.com"
                         }
-
                     ]
                 }
             ]
