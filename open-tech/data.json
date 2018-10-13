@@ -104,6 +104,16 @@
             "level": 9,
             "children": [
                 {
+                    "id": "Hive",
+                    "image": "hive.png",
+                    "link": "hive.apache.org"
+                },
+                {
+                    "id": "spark",
+                    "image" : "spark.png",
+                    "linke": "spark.apache.org"
+                },
+                {
                     "id": "RealTimeProcessing",
                     "name1": "Real-Time",
                     "name2": "Processing",
@@ -135,6 +145,11 @@
                             "id": "talend",
                             "image": "talend.png",
                             "link": "talend.com"
+                        },
+                        {
+                            "id": "nifi",
+                            "image": "nifi.png",
+                            "link": "nifi.apache.org"
                         }
                     ]
                 }
@@ -146,16 +161,9 @@
             "level": 0,
             "children": [
                 {
-                    "id": "DataMessaging",
-                    "name1": "Data",
-                    "name2": "Messaging",
-                    "children": [
-                        {
-                            "id": "Kafka",
-                            "image": "kafka.png",
-                            "link": "kafka.apache.org"
-                        }
-                    ]
+                    "id": "Kafka",
+                    "image": "kafka.png",
+                    "link": "kafka.apache.org"
                 },
                 {
                     "id": "DataCollection",
@@ -190,28 +198,10 @@
                         },
                         {
                             "id": "zookeeper",
-                            "image": "zookeeper.gif",
+                            "image": "zookeeper.jpeg",
                             "link": "zookeeper.apache.org"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "id": "DevFrameworks",
-            "name1": "Development",
-            "name2": "Frameworks",
-            "level": -50,
-            "children": [
-                {
-                    "id": "Hive",
-                    "image": "hive.png",
-                    "link": "hive.apache.org"
-                },
-                {
-                    "id": "spark",
-                    "image" : "spark.png",
-                    "linke": "spark.apache.org"
                 }
             ]
         },
@@ -228,8 +218,13 @@
                     "children": [
                         {
                             "id": "d3",
-                            "image": "d3js.png",
+                            "image": "d3js.jpg",
                             "link": "d3js.org"
+                        },
+                        {
+                            "id": "chartjs",
+                            "image": "chartjs.jpg",
+                            "link" :"www.chartjs.org"
                         }
                     ]
                 },
