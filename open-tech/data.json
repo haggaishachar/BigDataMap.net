@@ -40,19 +40,14 @@
                             "link": "cassandra.apache.org"
                         },
                         {
-                            "id": "CouchBase",
-                            "image": "Couchbase.gif",
+                            "id": "Couchbase",
+                            "image": "couchbase.gif",
                             "link": "Couchbase.com"
                         },
                         {
                             "id": "MongoDB",
                             "image": "mongodb.png",
                             "link": "mongodb.org"
-                        },
-                        {
-                            "id": "redis",
-                            "image": "redis.png",
-                            "link": "redis.io"
                         },
                         {
                             "id": "elasticsearch",
