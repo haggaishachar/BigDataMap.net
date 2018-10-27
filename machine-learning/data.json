@@ -1,0 +1,80 @@
+{
+    "id": "root",
+    "name1": "Open Source Machine Learning",
+    "children": [
+        {
+            "id": "ScikitLearn",
+            "image": "scikitlearn.png",
+            "link": "scikit-learn.org"
+        },
+        {
+            "id": "SparkMLib",
+            "image": "sparkmlib.png",
+            "link": "spark.apache.org/docs/latest/ml-guide.html"
+        },
+        {
+            "id": "mahout",
+            "image": "mahout.jpg",
+            "link": "mahout.svg"
+        },
+        {
+            "id": "services",
+            "name": "ML as Service",
+            "children": [
+                {
+                }
+            ]
+        },
+        {
+            "id": "deeplearning",
+            "name": "Deep Learning",
+            "children": [
+                {
+                    "id": "tensorflow",
+                    "image": "tensorflow.png",
+                    "name": "tensorflow"
+                },
+                {
+                    "id": "keras",
+                    "name": "Keras",
+                    "image": "keras.png"
+                },
+                {
+                    "id": "pytourch",
+                    "name": "PyTorch",
+                    "image": "pytourch.png"
+                }, 
+                {
+                    "id": "theano",
+                    "name": "theano",
+                    "image": "theano.png"
+                },
+                {
+                    "id": "caffe",
+                    "name": "caffe",
+                    "image": "caffe.jpg"
+                },
+                {
+                    "id": "caffe2",
+                    "name": "caffe2",
+                    "image": "caffe2.png"
+                },
+                {
+                    "id": "torch",
+                    "name": "torch",
+                    "image": "torch.png"
+                },
+                {
+                    "id": "cntk",
+                    "name": "Microsoft CNTK",
+                    "image": "cntk.png"
+                },
+                {
+                    "id": "mxnet",
+                    "name": "mxnet",
+                    "image": "mxnet.png"
+                }
+            ]
+        }
+    ]
+}
