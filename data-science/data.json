@@ -14,8 +14,7 @@
         },
         {
             "id": "mahout",
-            "image": "mahout.jpg",
-            "link": "mahout.svg"
+            "image": "mahout.svg"
         },
         {
             "id": "services",
@@ -40,9 +39,9 @@
                     "image": "keras.png"
                 },
                 {
-                    "id": "pytourch",
+                    "id": "pytorch",
                     "name": "PyTorch",
-                    "image": "pytourch.png"
+                    "image": "pytorch.png"
                 }, 
                 {
                     "id": "theano",
