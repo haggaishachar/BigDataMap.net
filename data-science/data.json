@@ -3,6 +3,20 @@
     "name1": "Data Science Open Source Tools",
     "children": [
         {
+            "id": "platforms",
+            "name1": "Platforms",
+            "children": [
+                {
+                    "id": "h2o",
+                    "image": "h2o.png"
+                },
+                {
+                    "id": "knime",
+                    "image": "knime.png"
+                }
+            ]
+        },
+        {
             "id": "libs",
             "name1": "Libraries",
             "children": [
@@ -13,93 +27,82 @@
                 {
                     "id": "numpy",
                     "image": "numpy.png"
+                },
+                {
+                    "id": "scipy",
+                    "image": "scipy.png"
                 }
             ]
         },
         { 
-        "id": "ML",
-        "name1": "Machine Learning Libs",
-        "children": [
-            {
-                "id": "ScikitLearn",
-                "image": "scikitlearn.png",
-                "link": "scikit-learn.org"
-            },
-            {
-                "id": "SparkMLib",
-                "image": "sparkmlib.png",
-                "link": "spark.apache.org/docs/latest/ml-guide.html"
-            },
-            {
-                "id": "mahout",
-                "image": "mahout.png",
-                "link": "mahout.apache.org"
-            },
-            {
-                "id": "platforms",
-                "name1": "Platforms",
-                "children": [
-                    {
-                        "id": "h2o",
-                        "image": "h2o.png"
-                    },
-                    {
-                        "id": "rapidminer",
-                        "image": "rapidminer.png"
-                    }
-                ]
-            },
-            {
-                "id": "deeplearning",
-                "name1": "Deep Learning",
-                "children": [
-                    {
-                        "id": "tensorflow",
-                        "image": "tensorflow.png",
-                        "name": "tensorflow"
-                    },
-                    {
-                        "id": "keras",
-                        "name": "Keras",
-                        "image": "keras.png"
-                    },
-                    {
-                        "id": "pytorch",
-                        "name": "PyTorch",
-                        "image": "pytorch.png"
-                    }, 
-                    {
-                        "id": "theano",
-                        "name": "theano",
-                        "image": "theano.png"
-                    },
-                    {
-                        "id": "caffe",
-                        "name": "caffe",
-                        "image": "caffe.jpg"
-                    },
-                    {
-                        "id": "caffe2",
-                        "name": "caffe2",
-                        "image": "caffe2.png"
-                    },
-                    {
-                        "id": "torch",
-                        "name": "torch",
-                        "image": "torch.png"
-                    },
-                    {
-                        "id": "cntk",
-                        "name": "Microsoft CNTK",
-                        "image": "cntk.png"
-                    },
-                    {
-                        "id": "mxnet",
-                        "name": "mxnet",
-                        "image": "mxnet.png"
-                    }
-                ]
-            }
+            "id": "ML",
+            "name1": "Machine Learning",
+            "children": [
+                {
+                    "id": "scikit",
+                    "image": "scikitlearn.png",
+                    "link": "scikit-learn.org"
+                },
+                {
+                    "id": "SparkMLib",
+                    "image": "sparkmlib.png",
+                    "link": "spark.apache.org/docs/latest/ml-guide.html"
+                },
+                {
+                    "id": "xgboost",
+                    "image": "xgboost.png"
+                },
+                {
+                    "id": "deeplearning",
+                    "name1": "Deep Learning",
+                    "children": [
+                        {
+                            "id": "tensorflow",
+                            "image": "tensorflow.png",
+                            "name": "tensorflow"
+                        },
+                        {
+                            "id": "keras",
+                            "name": "Keras",
+                            "image": "keras.png"
+                        },
+                        {
+                            "id": "pytorch",
+                            "name": "PyTorch",
+                            "image": "pytorch.png"
+                        }, 
+                        {
+                            "id": "theano",
+                            "name": "theano",
+                            "image": "theano.png"
+                        },
+                        {
+                            "id": "caffe",
+                            "name": "caffe",
+                            "image": "caffe.jpg"
+                        },
+                        {
+                            "id": "caffe2",
+                            "name": "caffe2",
+                            "image": "caffe2.png"
+                        },
+                        {
+                            "id": "torch",
+                            "name": "torch",
+                            "image": "torch.png"
+                        },
+                        {
+                            "id": "cntk",
+                            "name": "Microsoft CNTK",
+                            "image": "cntk.png"
+                        },
+                        {
+                            "id": "mxnet",
+                            "name": "mxnet",
+                            "image": "mxnet.png"
+                        }
+                    ]
+                }
             ]
         }
     ]
