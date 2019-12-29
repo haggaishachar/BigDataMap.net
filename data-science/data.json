@@ -59,8 +59,8 @@
                     "name1": "Computer Vision",
                     "children": [
                         {
-                            "id": "darknet",
-                            "image": "darknet.png"
+                            "id": "yolo",
+                            "image": "yolo.png"
                         },
                         {
                             "id": "opencv",
