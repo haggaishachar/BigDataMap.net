@@ -4,7 +4,7 @@
     "children": [
         {
             "id": "nlp",
-            "name": "NLP",
+            "name1": "NLP",
             "children": [
                 {
                     "id": "allennlp",
@@ -34,7 +34,7 @@
         },
         {
             "id": "automl",
-            "name": "automl",
+            "name1": "AutoML",
             "children": [
                 {
                     "id": "tpot",
@@ -44,7 +44,7 @@
         },
         {
             "id": "IDE",
-            "name": "IDE",
+            "name1": "IDE",
             "children": [
                 {
                     "id": "jupyter",
@@ -56,13 +56,13 @@
                 },
                 {
                     "id": "zeppelin",
-                    "image": "zepplein.jpg"
+                    "image": "zeppelin.jpg"
                 }
             ]
         },
         {
             "id": "ASR",
-            "name": "ASR",
+            "name1": "ASR",
             "children": [
                 {
                     "id": "kaldi",
@@ -72,7 +72,7 @@
         },
         {
             "id": "cv",
-            "name": "Computer Vision",
+            "name1": "Computer Vision",
             "children": [
                 {
                     "id": "darknet",
@@ -108,11 +108,11 @@
         },
         {
             "id": "scoring",
-            "name": "Scoring",
+            "name1": "Scoring",
             "children": [
                 {
                     "id": "onnx",
-                    "name": "onnx.png"
+                    "name1": "onnx.png"
                 }
             ]
         },
@@ -145,11 +145,11 @@
                         {
                             "id": "tensorflow",
                             "image": "tensorflow.png",
-                            "name": "tensorflow"
+                            "name1": "tensorflow"
                         },
                         {
                             "id": "keras",
-                            "name": "Keras",
+                            "name1": "Keras",
                             "image": "keras.png"
                         },
                         {
@@ -158,22 +158,22 @@
                         },
                         {
                             "id": "pytorch",
-                            "name": "PyTorch",
+                            "name1": "PyTorch",
                             "image": "pytorch.png"
                         }, 
                         {
                             "id": "cntk",
-                            "name": "Microsoft CNTK",
+                            "name1": "Microsoft CNTK",
                             "image": "cntk.png"
                         },
                         {
                             "id": "mxnet",
-                            "name": "mxnet",
+                            "name1": "mxnet",
                             "image": "mxnet.png"
                         },
                         {
                             "id": "dl4j",
-                            "name": "Deeplearning4j",
+                            "name1": "Deeplearning4j",
                             "image": "dl4j.png"
                         }
                     ]
