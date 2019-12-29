@@ -8,7 +8,7 @@
             "children": [
                 {
                     "id": "nlp",
-                    "name1": "NLP",
+                    "name1": "Natural Language Processing",
                     "children": [
                         {
                             "id": "allennlp",
@@ -97,8 +97,8 @@
             ]
         },
         {
-            "id": "IDE",
-            "name1": "IDE",
+            "id": "IDEs",
+            "name1": "IDEs",
             "children": [
                 {
                     "id": "jupyter",
