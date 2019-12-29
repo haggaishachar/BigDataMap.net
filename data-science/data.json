@@ -155,6 +155,10 @@
                 {
                     "id": "seldon",
                     "image": "seldon.png"
+                },
+                {
+                    "id": "predictionio",
+                    "image": "predictionio.png"
                 }
             ]
         },
