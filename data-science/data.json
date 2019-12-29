@@ -3,6 +3,88 @@
     "name1": "Data Science Open Source Tools",
     "children": [
         {
+            "id": "nlp",
+            "name": "NLP",
+            "children": [
+                {
+                    "id": "allennlp",
+                    "image": "allennlp.png"
+                },
+                {
+                    "id": "flair",
+                    "image": "flair.png"
+                },
+                {
+                    "id": "gensim",
+                    "image": "gensim.png"
+                },
+                {
+                    "id": "nltk",
+                    "image": "nltk.jpg"
+                },
+                {
+                    "id": "spacy",
+                    "name": "spacy.png"
+                },
+                {
+                    "id": "stanfordnlp",
+                    "image": "stanfordnlp.png"
+                }
+            ]
+        },
+        {
+            "id": "automl",
+            "name": "automl",
+            "children": [
+                {
+                    "id": "tpot",
+                    "image": "tpot.jpg"
+                }
+            ]
+        },
+        {
+            "id": "IDE",
+            "name": "IDE",
+            "children": [
+                {
+                    "id": "jupyter",
+                    "image": "jupyter.png"
+                },
+                {
+                    "id": "spyder",
+                    "image": "spyder.png"
+                },
+                {
+                    "id": "zeppelin",
+                    "image": "zepplein.jpg"
+                }
+            ]
+        },
+        {
+            "id": "ASR",
+            "name": "ASR",
+            "children": [
+                {
+                    "id": "kaldi",
+                    "name": "kaldi.png"
+                }
+            ]
+        },
+        {
+            "id": "cv",
+            "name": "Computer Vision",
+            "children": [
+                {
+                    "id": "darknet",
+                    "image": "darknet.png"
+                },
+                {
+                    "id": "opencv",
+                    "image": "opencv.jpg"
+                }
+            ]
+        },
+        {
             "id": "platforms",
             "name1": "Platforms",
             "children": [
@@ -13,24 +95,24 @@
                 {
                     "id": "knime",
                     "image": "knime.png"
+                },
+                {
+                    "id": "mlflow",
+                    "image": "mlflow.png"
+                },
+                {
+                    "id": "kubeflow",
+                    "name": "kubeflow.png"
                 }
             ]
         },
         {
-            "id": "libs",
-            "name1": "Libraries",
+            "id": "scoring",
+            "name": "Scoring",
             "children": [
                 {
-                    "id": "pandas",
-                    "image": "pandas.png"
-                },
-                {
-                    "id": "numpy",
-                    "image": "numpy.png"
-                },
-                {
-                    "id": "scipy",
-                    "image": "scipy.png"
+                    "id": "onnx",
+                    "name": "onnx.png"
                 }
             ]
         },
@@ -53,6 +135,10 @@
                     "image": "xgboost.png"
                 },
                 {
+                    "id": "accordnet",
+                    "image": "accord.png"
+                },
+                {
                     "id": "deeplearning",
                     "name1": "Deep Learning",
                     "children": [
@@ -67,30 +153,14 @@
                             "image": "keras.png"
                         },
                         {
+                            "id": "sonnet",
+                            "image": "sonnet.png"
+                        },
+                        {
                             "id": "pytorch",
                             "name": "PyTorch",
                             "image": "pytorch.png"
                         }, 
-                        {
-                            "id": "theano",
-                            "name": "theano",
-                            "image": "theano.png"
-                        },
-                        {
-                            "id": "caffe",
-                            "name": "caffe",
-                            "image": "caffe.jpg"
-                        },
-                        {
-                            "id": "caffe2",
-                            "name": "caffe2",
-                            "image": "caffe2.png"
-                        },
-                        {
-                            "id": "torch",
-                            "name": "torch",
-                            "image": "torch.png"
-                        },
                         {
                             "id": "cntk",
                             "name": "Microsoft CNTK",
@@ -100,6 +170,11 @@
                             "id": "mxnet",
                             "name": "mxnet",
                             "image": "mxnet.png"
+                        },
+                        {
+                            "id": "dl4j",
+                            "name": "Deeplearning4j",
+                            "image": "dl4j.png"
                         }
                     ]
                 }
