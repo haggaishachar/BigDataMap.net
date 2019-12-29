@@ -3,32 +3,74 @@
     "name1": "Data Science Open Source Tools",
     "children": [
         {
-            "id": "nlp",
-            "name1": "NLP",
+            "id": "subfields",
+            "name1": "Scientific Fields",
             "children": [
                 {
-                    "id": "allennlp",
-                    "image": "allennlp.png"
+                    "id": "nlp",
+                    "name1": "NLP",
+                    "children": [
+                        {
+                            "id": "allennlp",
+                            "image": "allennlp.png"
+                        },
+                        {
+                            "id": "flair",
+                            "image": "flair.png"
+                        },
+                        {
+                            "id": "gensim",
+                            "image": "gensim.png"
+                        },
+                        {
+                            "id": "nltk",
+                            "image": "nltk.jpg"
+                        },
+                        {
+                            "id": "spacy",
+                            "image": "spacy.png"
+                        },
+                        {
+                            "id": "stanfordnlp",
+                            "image": "stanfordnlp.png"
+                        }
+                    ]
                 },
                 {
-                    "id": "flair",
-                    "image": "flair.png"
+                    "id": "Speech Recognition",
+                    "name1": "Speech Recognition",
+                    "children": [
+                        {
+                            "id": "kaldi",
+                            "image": "kaldi.png"
+                        },
+                        {
+                            "id": "mycroft",
+                            "image": "mycroft.jpeg"
+                        },
+                        {
+                            "id": "deepspeech",
+                            "image": "deepspeech.png"
+                        }
+                    ]
                 },
                 {
-                    "id": "gensim",
-                    "image": "gensim.png"
-                },
-                {
-                    "id": "nltk",
-                    "image": "nltk.jpg"
-                },
-                {
-                    "id": "spacy",
-                    "name": "spacy.png"
-                },
-                {
-                    "id": "stanfordnlp",
-                    "image": "stanfordnlp.png"
+                    "id": "cv",
+                    "name1": "Computer Vision",
+                    "children": [
+                        {
+                            "id": "darknet",
+                            "image": "darknet.png"
+                        },
+                        {
+                            "id": "opencv",
+                            "image": "opencv.jpg"
+                        },
+                        {
+                            "id": "luminoth",
+                            "image": "luminoth.png"
+                        }
+                    ]
                 }
             ]
         },
@@ -39,6 +81,18 @@
                 {
                     "id": "tpot",
                     "image": "tpot.jpg"
+                },
+                {
+                    "id": "autokeras",
+                    "image": "autokeras.png"
+                },
+                {
+                    "id": "featuretools",
+                    "image": "featuretools.png"
+                },
+                {
+                    "id": "nni",
+                    "image": "nni.png"
                 }
             ]
         },
@@ -57,30 +111,14 @@
                 {
                     "id": "zeppelin",
                     "image": "zeppelin.jpg"
-                }
-            ]
-        },
-        {
-            "id": "ASR",
-            "name1": "ASR",
-            "children": [
-                {
-                    "id": "kaldi",
-                    "image": "kaldi.png"
-                }
-            ]
-        },
-        {
-            "id": "cv",
-            "name1": "Computer Vision",
-            "children": [
-                {
-                    "id": "darknet",
-                    "image": "darknet.png"
                 },
                 {
-                    "id": "opencv",
-                    "image": "opencv.jpg"
+                    "id": "pycharm",
+                    "image": "pycharm.png"
+                },
+                {
+                    "id": "rodeo",
+                    "image": "rodeo.jfif"
                 }
             ]
         },
@@ -99,10 +137,6 @@
                 {
                     "id": "mlflow",
                     "image": "mlflow.png"
-                },
-                {
-                    "id": "kubeflow",
-                    "image": "kubeflow.png"
                 }
             ]
         },
@@ -113,6 +147,14 @@
                 {
                     "id": "onnx",
                     "image": "onnx.png"
+                },
+                {
+                    "id": "kubeflow",
+                    "image": "kubeflow.png"
+                },
+                {
+                    "id": "seldon",
+                    "image": "seldon.png"
                 }
             ]
         },
