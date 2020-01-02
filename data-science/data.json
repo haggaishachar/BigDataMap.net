@@ -4,6 +4,7 @@
     "children": [
         { 
             "id": "Machine Learning",
+            "name1": "Machine Learning",
             "children": [
                 {
                     "id": "scikit-learn",
@@ -31,6 +32,7 @@
                 },
                 {
                     "id": "Deep Learning",
+                    "name1": "Deep Learning",
                     "children": [
                         {
                             "id": "TensorFlow",
@@ -52,7 +54,6 @@
                         },
                         {
                             "id": "PyTorch",
-                            "name1": "PyTorch",
                             "image": "pytorch.png",
                             "desc": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
                             "link": "https://pytorch.org/"
@@ -79,6 +80,7 @@
                 },
                 {
                     "id": "Reinforment Learning",
+                    "name1": "Reinforment Learning",
                     "children": [
                         {
                             "id": "Gym",
@@ -104,9 +106,11 @@
         },
         {
             "id": "Scientific Fields",
+            "name1": "Scientific Fields",
             "children": [
                 {
                     "id": "Natural Language Processing",
+                    "name1": "Natural Language Processing",
                     "children": [
                         {
                             "id": "AllenNLP",
@@ -154,6 +158,7 @@
                 },
                 {
                     "id": "Speech Recognition",
+                    "name1": "Speech Recognition",
                     "children": [
                         {
                             "id": "Kaldi",
@@ -177,6 +182,7 @@
                 },
                 {
                     "id": "Computer Vision",
+                    "name1": "Computer Vision",
                     "children": [
                         {
                             "id": "YOLO",
@@ -201,6 +207,7 @@
         },
         {
             "id": "AutoML",
+            "name1": "AutoML",
             "children": [
                 {
                     "id": "TPOT",
@@ -230,6 +237,7 @@
         },
         {
             "id": "IDEs",
+            "name1": "IDEs",
             "children": [
                 {
                     "id": "jupyter",
@@ -265,6 +273,7 @@
         },
         {
             "id": "Platforms",
+            "name1": "Platforms",
             "children": [
                 {
                     "id": "H2O",
@@ -294,6 +303,7 @@
         },
         {
             "id": "Scoring",
+            "name1": "Scoring",
             "children": [
                 {
                     "id": "ONNX",
