@@ -99,6 +99,12 @@
                             "desc": "A platform for Reasoning systems (Reinforcement Learning, Contextual Bandits, etc.)",
                             "image": "reagent.png",
                             "link": "https://reagent.ai/"
+                        },
+                        {
+                            "id":"Tensorlayer",
+                            "image": "tensorlayer.png",
+                            "link": "http://tensorlayer.org",
+                            "desc": "Deep Learning and Reinforcement Learning Library for Scientists"
                         }
                     ]
                 }
